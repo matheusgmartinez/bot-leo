@@ -23,7 +23,7 @@ app.add_middleware(SlowAPIMiddleware)
 
 @app.get("/")
 async def home():
-    return {"joke":}
+    return {"joke": "Yo momma"}
 
 
 @app.get("/jokes")
